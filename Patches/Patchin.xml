@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+
+	
+
+	<Operation Class="PatchOperationReplace">
+
+		<xpath>/Defs/TerrainDef [defName = "Bridge"]/texturePath</xpath>
+		<value>
+			    <texturePath>BridgetJones</texturePath>
+		</value>
+	</Operation>
+
+
+
+</Patch>
+
+

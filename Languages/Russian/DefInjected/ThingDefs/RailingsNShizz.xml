@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	 <BridgelloRailingone.label>Перила</BridgelloRailingone.label>
+     <BridgelloRailingone.description>Перила для украшения вашего моста</BridgelloRailingone.description> 
+	 
+	 <BridgelloRailingVertone.label>Диагональные перила</BridgelloRailingVertone.label>
+     <BridgelloRailingVertone.description>Диагональные перила для украшения вашего моста</BridgelloRailingVertone.description>
+
+</LanguageData>

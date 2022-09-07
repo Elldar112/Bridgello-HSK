@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <TerrainDef Name="FloorioBase" Abstract="True">
+    <layerable>true</layerable>
+    <affordances>
+      <li>Light</li>
+      <li>Medium</li>
+      <li>Heavy</li>
+    </affordances>
+    <designationCategory>Floors</designationCategory>
+    <fertility>0</fertility>
+    <constructEffect>ConstructDirt</constructEffect>
+    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+  </TerrainDef>
+
+
+
+	<TerrainDef  ParentName="FloorioBase">
+		<defName>RimBoardwalkWood</defName>
+		<label>boardwalk</label>
+		<renderPrecedence>400</renderPrecedence>
+		<description>boardwalk for nice and smooth connection between land and the bridge.</description>
+		<texturePath>BridgetJones</texturePath>
+		<burnedDef>BurnedWoodPlankFloor</burnedDef>
+		<statBases>
+			<WorkToBuild>85</WorkToBuild>
+			<Flammability>0.22</Flammability>
+    </statBases>
+		<costList>
+			<WoodLog>3</WoodLog>
+		</costList>
+		<constructEffect>ConstructWood</constructEffect>
+	</TerrainDef>
+
+	
+	
+	
+
+</Defs>

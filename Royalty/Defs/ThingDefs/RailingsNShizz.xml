@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+
+
+
+<Defs>
+
+
+
+  <ThingDef Name="JeffBridgesBase" Abstract="True">
+    <category>Building</category>
+    <thingClass>Building</thingClass>
+    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+    <selectable>true</selectable>
+    <drawerType>MapMeshAndRealTime</drawerType>
+    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+    <repairEffect>Repair</repairEffect>
+    <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+    <filthLeaving>Filth_RubbleBuilding</filthLeaving>
+		<statBases>
+			<SellPriceFactor>0.70</SellPriceFactor>
+		</statBases>
+		    <designationCategory>Structure</designationCategory>
+    <building>
+		<ai_neverTrashThis>true</ai_neverTrashThis>
+    </building>
+  </ThingDef>
+
+
+    <ThingDef ParentName="JeffBridgesBase">
+    <defName>BridgelloRailingone</defName>
+    <label>bridge railing</label>
+    <graphicData>
+      <texPath>Monorailing</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <shaderType>Transparent</shaderType>
+      <drawSize>(4,4)</drawSize>
+     <!-- <shadowData>
+        <volume>(0.6, 0.6, 0.6)</volume>
+      </shadowData>-->
+      <damageData>
+        <rectN>(0,0,1,0.703125)</rectN>
+        <rectS>(0.09375,0,0.84375,1)</rectS>
+        <rectE>(0,0,0.84375,0.625)</rectE>
+        <rectW>(0.15625,0,0.84375,0.625)</rectW>
+      </damageData>
+    </graphicData>
+<uiIconPath>MonorailUI</uiIconPath>
+    <altitudeLayer>Building</altitudeLayer>
+    <size>(1,1)</size>
+    <placingDraggableDimensions>1</placingDraggableDimensions>
+    <statBases>
+      <MaxHitPoints>200</MaxHitPoints>
+      <WorkToBuild>160</WorkToBuild>
+      <Mass>5</Mass>
+      <Flammability>1.0</Flammability>
+      <Beauty>1</Beauty>
+      <Comfort>0.1</Comfort>
+    </statBases>
+    <terrainAffordanceNeeded>Any</terrainAffordanceNeeded>
+    <description>Railing for bridges.</description>
+    <socialPropernessMatters>false</socialPropernessMatters>
+
+    <pathCost>0</pathCost>
+    <fillPercent>0</fillPercent>
+    <building>
+      <isSittable>false</isSittable>
+    </building>
+  </ThingDef>
+
+
+    
+  
+      <ThingDef ParentName="JeffBridgesBase">
+    <defName>BridgelloRailingVertone</defName>
+    <label>diagonal bridge railing</label>
+    <graphicData>
+      <texPath>Cornovert</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <shaderType>Transparent</shaderType>
+      <drawSize>(4,4)</drawSize>
+     <!-- <shadowData>
+        <volume>(0.6, 0.6, 0.6)</volume>
+      </shadowData>-->
+      <damageData>
+        <rectN>(0,0,1,0.703125)</rectN>
+        <rectS>(0.09375,0,0.84375,1)</rectS>
+        <rectE>(0,0,0.84375,0.625)</rectE>
+        <rectW>(0.15625,0,0.84375,0.625)</rectW>
+      </damageData>
+    </graphicData>
+<uiIconPath>CornoUI</uiIconPath>
+    <altitudeLayer>Building</altitudeLayer>
+    <size>(1,1)</size>
+    <statBases>
+      <MaxHitPoints>200</MaxHitPoints>
+      <WorkToBuild>160</WorkToBuild>
+      <Mass>5</Mass>
+      <Flammability>1.0</Flammability>
+      <Beauty>1</Beauty>
+      <Comfort>0.1</Comfort>
+    </statBases>
+    <terrainAffordanceNeeded>Any</terrainAffordanceNeeded>
+    <description>Railing for bridges.</description>
+    <socialPropernessMatters>false</socialPropernessMatters>
+
+    <pathCost>0</pathCost>
+    <fillPercent>0</fillPercent>
+    <building>
+      <isSittable>false</isSittable>
+    </building>
+  </ThingDef>
+
+
+
+</Defs>

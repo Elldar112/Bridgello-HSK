@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+
+
+
+<!-- Railings -->
+	<BridgelloRailingVertone.label>ukośna poręcz</BridgelloRailingVertone.label>
+    <BridgelloRailingVertone.description>poręcz mostu</BridgelloRailingVertone.description>
+
+    <BridgelloRailingone.label>poręcz</BridgelloRailingone.label>
+    <BridgelloRailingone.description>poręcz mostu</BridgelloRailingone.description> 
+
+</LanguageData>

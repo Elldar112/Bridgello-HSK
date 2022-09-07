@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+
+
+
+<!-- Railings -->
+	<BridgelloRailingVertone.label>Diagonales Brückengeländer</BridgelloRailingVertone.label>
+    <BridgelloRailingVertone.description>ein diagonales Brückengeländer, welches nur dazu dient, deine gebauten Brücken zu verschönern.</BridgelloRailingVertone.description>
+
+    <BridgelloRailingone.label>Brückengeländer</BridgelloRailingone.label>
+    <BridgelloRailingone.description>ein Brückengeländer, welches nur dazu dient, deine gebauten Brücken zu verschönern.</BridgelloRailingone.description> 
+
+</LanguageData>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+
+	
+<!-- Bridges -->
+	<RimBoardwalkWood.label>holzsteg</RimBoardwalkWood.label>
+    <RimBoardwalkWood.description>ein einfacher Holzsteg. Besitzt die gleiche Funktion wie die Holzbrücke. Kann nur auf Land gebaut werden. </RimBoardwalkWood.description>
+
+</LanguageData>
