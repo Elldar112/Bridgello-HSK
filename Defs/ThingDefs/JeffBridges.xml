@@ -28,7 +28,7 @@
 			<Flammability>0.22</Flammability>
     </statBases>
 		<costList>
-			<WoodLog>3</WoodLog>
+			<WoodPlank>2</WoodPlank>
 		</costList>
 		<constructEffect>ConstructWood</constructEffect>
 	</TerrainDef>
