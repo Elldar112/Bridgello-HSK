@@ -57,6 +57,9 @@
       <Beauty>1</Beauty>
       <Comfort>0.1</Comfort>
     </statBases>
+		<costList>
+			<Kindling>2</Kindling>
+		</costList>
     <terrainAffordanceNeeded>Any</terrainAffordanceNeeded>
     <description>Railing for bridges.</description>
     <socialPropernessMatters>false</socialPropernessMatters>
@@ -90,7 +93,7 @@
       </damageData>
     </graphicData>
 <uiIconPath>CornoUI</uiIconPath>
-    <altitudeLayer>Building</altitudeLayer>
+    <altitudeLayer>BuildingOnTop</altitudeLayer>
     <size>(1,1)</size>
     <statBases>
       <MaxHitPoints>200</MaxHitPoints>
@@ -100,6 +103,9 @@
       <Beauty>1</Beauty>
       <Comfort>0.1</Comfort>
     </statBases>
+		<costList>
+			<Kindling>2</Kindling>
+		</costList>
     <terrainAffordanceNeeded>Any</terrainAffordanceNeeded>
     <description>Railing for bridges.</description>
     <socialPropernessMatters>false</socialPropernessMatters>
